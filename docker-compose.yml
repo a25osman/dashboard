@@ -5,5 +5,5 @@ services:
     build: ./ # path to dockerfile
     ports: # Port binding to host from docker container
       - "3000:3000" # Bind port 3000 of host to 3000 of container
-    container_name: frontend-docker
+    container_name: dashboard-tecium
     restart: always # What to do if container crashes
