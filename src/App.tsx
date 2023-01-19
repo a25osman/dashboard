@@ -8,7 +8,7 @@ const App:React.FC = () => {
   return (
     <Stack sx={{p: 2}} direction="column">
       <Typography variant="h4" sx={{mt: "2%", mb: "3.5%", color:"gray"}}> 
-        Vehicle Metrics :
+        Vehicle Metrics:
       </Typography>
       <DashboardList />
     </Stack >
